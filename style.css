@@ -1,0 +1,63 @@
+.logo-image{
+  width: 200px;
+  height: 150px;
+}
+header{
+  width:100%;
+  display: flex;
+  align-items: center;
+  position: fixed;
+}
+ul{
+  list-style:none;
+  display: flex;
+  justify-content:space-around;
+  font-family: verdana;
+  
+}
+nav{
+  width:100%;
+  background-color: lightblue;
+}
+
+.sign-up page{
+  height:500px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+   
+}
+.sign-up-form{
+  
+  text-align:center;
+  font-family: Century Gothic;
+  margin-bottom:25px;
+  padding-top: 150px;
+ 
+}
+.video-page{
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+ 
+.vid{
+    text-align: center;
+  font-family: cursive;
+}
+.store-finder{
+  height: 600px;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2015/05/pizza-1200x600.jpg")
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: lightyellow;
+  }
+ 
+}
+
+
+a{
+  text-decoration: none;
+}
